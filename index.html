@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,267 +13,233 @@
             <div style="width: 217px;"></div>
             <div class="header__search">
                 <div class="header__search-wrap">
-                    <p class="header__search-p">Поиск по сайту</p>
+                    <input type="text" class="header__search-input" placeholder="Поиск по сайту">
                     <a class="header__search-delete" href="...">  
-                        <img src="./public/Closed.svg" alt="icon-delete">
+                        <img src="./public/icons/Closed.svg" alt="icon-delete">
                     </a>
                 </div>
                 <div class="header__search-line"></div>
                 <a class="header__search-icon" href="...">  
-                    <img src="./public/Lupa.svg" alt="icon-search">
+                    <img src="./public/icons/Lupa.svg" alt="icon-search">
                 </a>
             </div>
             <div class="header__info">
-                <div class="header__translate">
-                    <p class="header__translate-p">RU</p>
+                <button class="header__translate">
+                    <span>RU</span>
                     <a class="header__translate-arrow" href="...">  
-                        <img src="./public/Arrow_blue.svg" alt="icon-arrow">
+                        <img src="./public/icons/Arrow_blue.svg" alt="icon-arrow">
                     </a>
-                </div>
-                <div class="header__profile">
+                </button>
+                <button class="header__profile">
                     <a class="header__profile-avatar" href="...">  
-                        <img src="./public/Avatar.png" alt="icon-avatar">
+                        <img src="./public/pictures/Avatar.png" alt="icon-avatar">
                     </a>
-                    <p class="header__profile-p">Руслан Ан</p>
+                    <span>Руслан Ан</span>
                     <a class="header__profile-arrow" href="...">  
-                        <img src="./public/Arrow.svg" alt="icon-arrow">
+                        <img src="./public/icons/Arrow.svg" alt="icon-arrow">
                     </a>
-                </div>
+                </button>
             </div>
         </div>
     </header>
-    <section class="CenterCollective">
-        <p class="CenterCollective__p">
-            ЦЕНТР КОЛЛЕКТИВНОГО ПОЛЬЗОВАНИЯ «МАТЕРИАЛОВЕДЕНИЕ И ДИАГНОСТИКА В ПЕРЕДОВЫХ ТЕХНОЛОГИЯХ»
-        </p>
-        <div class="CenterCollective__table">
-            <div class="CenterCollective__line"></div>
-            <div class="CenterCollective__info">
-                <p class="CenterCollective__info-mainText">Сокращенное наименование ЦКП</p>
-                <p class="CenterCollective__info-secondText">ЦКП МДТ</p>
+    <main class="main">
+        <section class="center-collective">
+            <p class="center-collective__title">
+                ЦЕНТР КОЛЛЕКТИВНОГО ПОЛЬЗОВАНИЯ «МАТЕРИАЛОВЕДЕНИЕ И ДИАГНОСТИКА В ПЕРЕДОВЫХ ТЕХНОЛОГИЯХ»
+            </p>
+            <div class="center-collective__table">
+                <div class="center-collective__line"></div>
+                <div class="center-collective__info">
+                    <p class="center-collective__info-title">Сокращенное наименование ЦКП</p>
+                    <p class="center-collective__info-description">ЦКП МДТ</p>
+                </div>
+                <div class="center-collective__line"></div>
+                <div class="center-collective__info">
+                    <p class="center-collective__info-title">Базовая организация</p>
+                    <p class="center-collective__info-description"> Федеральное государственное бюджетное учреждение науки</p>
+                </div>
+                <div class="center-collective__line"></div>
+                <div class="center-collective__info">
+                    <p class="center-collective__info-title">Ведомственная принадлежность</p>
+                    <p class="center-collective__info-description">Минобрнауки России</p>
+                </div>
+                <div class="center-collective__line"></div>
+                <div class="center-collective__info">
+                    <p class="center-collective__info-title">Сайт ЦКП</p>
+                    <p class="center-collective__info-description">http://ckp.rinno.ru/news/</p>
+                </div>
+                <div class="center-collective__line"></div>
+                <div class="center-collective__info">
+                    <p class="center-collective__info-title">Год создания ЦКП</p>
+                    <p class="center-collective__info-description">2003</p>
+                </div>
+                <div class="center-collective__line"></div>
+                <div class="center-collective__info">
+                    <p class="center-collective__info-title">УНУ в составе оборудования ЦКП</p>
+                    <p class="center-collective__info-description">Учебная и учебно-методическая литература; Общая коллекция</p>
+                </div>
+                <div class="center-collective__line"></div>
+                <div class="center-collective__info">
+                    <p class="center-collective__info-title">Оборудование с УД</p>
+                    <button class="center-collective__info-remoteBtn">
+                        <img src="./public/icons/PC.svg" alt="icon-pc">
+                        <span>Удаленный доступ</span>
+                    </button>
+                </div>
+                <div class="center-collective__line"></div>
             </div>
-            <div class="CenterCollective__line"></div>
-            <div class="CenterCollective__info">
-                <p class="CenterCollective__info-mainText">Базовая организация</p>
-                <p class="CenterCollective__info-secondText"> Федеральное государственное бюджетное учреждение науки</p>
-            </div>
-            <div class="CenterCollective__line"></div>
-            <div class="CenterCollective__info">
-                <p class="CenterCollective__info-mainText">Ведомственная принадлежность</p>
-                <p class="CenterCollective__info-secondText">Минобрнауки России</p>
-            </div>
-            <div class="CenterCollective__line"></div>
-            <div class="CenterCollective__info">
-                <p class="CenterCollective__info-mainText">Сайт ЦКП</p>
-                <p class="CenterCollective__info-secondText">http://ckp.rinno.ru/news/</p>
-            </div>
-            <div class="CenterCollective__line"></div>
-            <div class="CenterCollective__info">
-                <p class="CenterCollective__info-mainText">Год создания ЦКП</p>
-                <p class="CenterCollective__info-secondText">2003</p>
-            </div>
-            <div class="CenterCollective__line"></div>
-            <div class="CenterCollective__info">
-                <p class="CenterCollective__info-mainText">УНУ в составе оборудования ЦКП</p>
-                <p class="CenterCollective__info-secondText">Учебная и учебно-методическая литература; Общая коллекция</p>
-            </div>
-            <div class="CenterCollective__line"></div>
-            <div class="CenterCollective__info">
-                <p class="CenterCollective__info-mainText">Оборудование с УД</p>
-                <div class="CenterCollective__info-remoteBtn">
-                    <img src="./public/PC.svg" alt="icon-pc">
-                    <p>Удаленный доступ</p>
-                </div>
-            </div>
-            <div class="CenterCollective__line"></div>
-        </div>
-        <div class="CenterCollective__activeBtn">
-            <p>Заказать услуги</p>
-        </div>
-    </section>
-    <section class="Category">
-        <div class="Category__menu">
-            <p class="Category__menu-title">Категории:</p>
-            <div class="Category__menu-list">
-                <div class="Category__menu-wrap">
-                    <a class="Category__menu-icon" href="...">  
-                        <img src="./public/Ruble.svg" alt="icon-ruble">
-                    </a>
-                    <p class="Category__menu-name">Физика</p>
-                </div>
-                <div class="Category__menu-wrap">
-                    <a class="Category__menu-icon" href="...">  
-                        <img src="./public/Ruble.svg" alt="icon-ruble">
-                    </a>
-                    <p class="Category__menu-name">Химия</p>
-                </div>
-                <div class="Category__menu-wrap">
-                    <a class="Category__menu-icon" href="...">  
-                        <img src="./public/Ruble.svg" alt="icon-ruble">
-                    </a>
-                    <p class="Category__menu-name">Биология</p>
-                </div>
-                <div class="Category__menu-wrap">
-                    <a class="Category__menu-icon" href="...">  
-                        <img src="./public/Ruble.svg" alt="icon-ruble">
-                    </a>
-                    <p class="Category__menu-name">Экономика</p>
-                </div>
-                <div class="Category__menu-wrap">
-                    <a class="Category__menu-icon" href="...">  
-                        <img src="./public/Ruble.svg" alt="icon-ruble">
-                    </a>
-                    <p class="Category__menu-name">Механика</p>
-                </div>
-                <div class="Category__menu-wrap">
-                    <a class="Category__menu-icon" href="...">  
-                        <img src="./public/Ruble.svg" alt="icon-ruble">
-                    </a>
-                    <p class="Category__menu-name">Инженерия</p>
-                </div>
-                <div class="Category__menu-wrap">
-                    <a class="Category__menu-icon" href="...">  
-                        <img src="./public/Ruble.svg" alt="icon-ruble">
-                    </a>
-                    <p class="Category__menu-name">Каталог научного оборудования</p>
-                </div>
-                <div class="Category__menu-wrap">
-                    <a class="Category__menu-icon" href="...">  
-                        <img src="./public/Ruble.svg" alt="icon-ruble">
-                    </a>
-                    <p class="Category__menu-name">Оборудование с УД</p>
+            <button class="center-collective__btn">Заказать услуги</button>
+        </section>
+        <section class="category">
+            <div class="category__menu">
+                <p class="category__menu-title">Категории:</p>
+                <div class="category__menu-list">
+                    <button class="category__menu-wrap">
+                        <img src="./public/icons/Ruble.svg" alt="icon-ruble">
+                        <span class="category__menu-name">Физика</span>
+                    </button>
+                    <button class="category__menu-wrap">
+                        <img src="./public/icons/Ruble.svg" alt="icon-ruble">
+                        <span class="category__menu-name">Химия</span>
+                    </button>
+                    <button class="category__menu-wrap">
+                        <img src="./public/icons/Ruble.svg" alt="icon-ruble">
+                        <span class="category__menu-name">Биология</span>
+                    </button>
+                    <button class="category__menu-wrap">
+                        <img src="./public/icons/Ruble.svg" alt="icon-ruble">
+                        <span class="category__menu-name">Экономика</span>
+                    </button>
+                    <button class="category__menu-wrap">
+                        <img src="./public/icons/Ruble.svg" alt="icon-ruble">
+                        <span class="category__menu-name">Механика</span>
+                    </button>
+                    <button class="category__menu-wrap">
+                        <img src="./public/icons/Ruble.svg" alt="icon-ruble">
+                        <span class="category__menu-name">Инженерия</span>
+                    </button>
+                    <button class="category__menu-wrap">
+                        <img src="./public/icons/Ruble.svg" alt="icon-ruble">
+                        <span class="category__menu-name">Каталог научного оборудования</span>
+                    </button>
+                    <button class="category__menu-wrap">
+                        <img src="./public/icons/Ruble.svg" alt="icon-ruble">
+                        <span class="category__menu-name">Оборудование с УД</span>
+                    </button>
                 </div>
             </div>
-        </div>
-        <div class="Category__blocks">
-            <div class="Category__welcome">
-                <div class="Category__welcome-texts">
-                    <p class="Category__welcome-title">Добро пожаловать в навигатор по научному оборудованию.</p>
-                    <p class="Category__welcome-p">Центры коллективного пользования научным оборудованием и уникальные научные установки</p>
-                </div>
-                <div class="Category__welcome-info">
-                    <div class="Category__register-centers">
-                        <p class="Category__register-title welcome-num">614</p>
-                        <p class="Category__register-p welcome-p">Зарегистрировано центров коллективного пользования</p>
+            <div class="category__blocks">
+                <div class="category__welcome">
+                    <div class="category__welcome-texts">
+                        <p class="category__welcome-title">Добро пожаловать в навигатор по научному оборудованию.</p>
+                        <p class="category__welcome-p">Центры коллективного пользования научным оборудованием и уникальные научные установки</p>
                     </div>
-                    <div class="Category__unical-centers">
-                        <p class="Category__unical-title welcome-num">362</p>
-                        <p class="Category__unical-p welcome-p">Зарегистрировано уникальных научных установок</p>
+                    <div class="category__welcome-info">
+                        <div class="category__register-centers">
+                            <p class="category__register-title welcome-num">614</p>
+                            <p class="category__register-p welcome-p">Зарегистрировано центров коллективного пользования</p>
+                        </div>
+                        <div class="category__unical-centers">
+                            <p class="category__unical-title welcome-num">362</p>
+                            <p class="category__unical-p welcome-p">Зарегистрировано уникальных научных установок</p>
+                        </div>
+                        <div class="category__russia-centers">
+                            <p class="category__russia-title welcome-num">7</p>
+                            <p class="category__russia-p welcome-p">Создается в России установок класса "Megascience"</p>
+                        </div>
                     </div>
-                    <div class="Category__russia-centers">
-                        <p class="Category__russia-title welcome-num">7</p>
-                        <p class="Category__russia-p welcome-p">Создается в России установок класса "Megascience"</p>
+                    <div class="category__welcome-ellipse">
+                        <img src="./public/icons/Ellipse1.svg" alt="ellipse">
                     </div>
                 </div>
-                <div class="Category__welcome-ellipseOne">
-                    <img src="./public/Ellipse1.svg" alt="ellipse">
-                </div>
-            </div>
-            <div class="Category__blocks-wrap">
-                <div class="Category__catalogOne Category__block">
-                    <p class="welcome-num">Каталог оборудования с коллективным доступом.</p>
-                    <p class="Category__welcome-p">Добро пожаловать в наш каталог, в котором вы сможете ознакомитьсясо всеми нашими товарами.</p>
-                </div>
-                <div class="Category__catalogTwo Category__block">
-                    <p class="Category__catalogTwo-title welcome-num">Каталог оборудования с удаленным доступом.</p>
-                    <p class="Category__catalogTwo-title Category__welcome-p">Добро пожаловать в наш каталог, в котором вы сможете ознакомитьсясо всеми нашими товарами.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="Example">
-        <div class="Example__block">
-            <div class="Example__block-icon">
-                <img src="./public/Market.svg" alt="icon-market">
-            </div>
-            <p class="Example__block-mainText">Пример1</p>
-            <p class="Example__block-secondText">Пример1</p>
-        </div>
-        <div class="Example__block">
-            <div class="Example__block-icon">
-                <img src="./public/Market.svg" alt="icon-market">
-            </div>
-            <p class="Example__block-mainText">Пример2</p>
-            <p class="Example__block-secondText">Пример2</p>
-        </div>
-        <div class="Example__block">
-            <div class="Example__block-icon">
-                <img src="./public/Market.svg" alt="icon-market">
-            </div>
-            <p class="Example__block-mainText">Пример3</p>
-            <p class="Example__block-secondText">Пример3</p>
-        </div>
-        <div class="Example__block">
-            <div class="Example__block-icon">
-                <img src="./public/Market.svg" alt="icon-market">
-            </div>
-            <p class="Example__block-mainText">Пример4</p>
-            <p class="Example__block-secondText">Пример4</p>
-        </div>
-    </section>
-    <section class="Physic">
-        <p class="Physic__title">Физика</p>
-        <div class="Physic__wrap">
-            <div class="Physic__options">
-                <div class="Physic__options-Optica">
-                    <p>Оптика</p>
-                </div>
-                <div class="Physic__options-tune">
-                    <p>Оптика2</p>
-                </div>
-                <div class="Physic__options-tune">
-                    <p>Оптика2</p>
-                </div>
-                <div class="Physic__options-tune">
-                    <p>Оптика2</p>
-                </div>
-                <div class="Physic__options-tune">
-                    <p>Оптика2</p>
-                </div>
-            </div>
-            <div class="Physic__goods">
-                <div class="Physic__goods-item">
-                    <div class="Physic__goods-photo">
-                        <img src="./public/binocular.png" alt="icon-market">
+                <div class="category__blocks-wrap">
+                    <div class="category__catalog-one category__block">
+                        <p class="welcome-num">Каталог оборудования с коллективным доступом.</p>
+                        <p class="category__welcome-p">Добро пожаловать в наш каталог, в котором вы сможете ознакомитьсясо всеми нашими товарами.</p>
                     </div>
-                    <p class="Physic__goods-title">Бинокль 1</p>
-                    <p class="Physic__goods-text">Описание аппарата 1 все его характеристики и свойства.</p>
-                    <div class="Physic__goods-btn">
-                        <p>Подробнее</p>
-                    </div>
-                </div>
-                <div class="Physic__goods-item">
-                    <div class="Physic__goods-photo">
-                        <img src="./public/binocular.png" alt="icon-market">
-                    </div>
-                    <p class="Physic__goods-title">Бинокль 1</p>
-                    <p class="Physic__goods-text">Описание аппарата 1 все его характеристики и свойства.</p>
-                    <div class="Physic__goods-btn">
-                        <p>Подробнее</p>
-                    </div>
-                </div>
-                <div class="Physic__goods-item">
-                    <div class="Physic__goods-photo">
-                        <img src="./public/binocular.png" alt="icon-market">
-                    </div>
-                    <p class="Physic__goods-title">Бинокль 1</p>
-                    <p class="Physic__goods-text">Описание аппарата 1 все его характеристики и свойства.</p>
-                    <div class="Physic__goods-btn">
-                        <p>Подробнее</p>
-                    </div>
-                </div>
-                <div class="Physic__goods-item">
-                    <div class="Physic__goods-photo">
-                        <img src="./public/binocular.png" alt="icon-market">
-                    </div>
-                    <p class="Physic__goods-title">Бинокль 1</p>
-                    <p class="Physic__goods-text">Описание аппарата 1 все его характеристики и свойства.</p>
-                    <div class="Physic__goods-btn">
-                        <p>Подробнее</p>
+                    <div class="category__catalog-two category__block">
+                        <p class="category__catalog-two-title welcome-num">Каталог оборудования с удаленным доступом.</p>
+                        <p class="category__catalog-two-title category__welcome-p">Добро пожаловать в наш каталог, в котором вы сможете ознакомитьсясо всеми нашими товарами.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="example">
+            <div class="example__block">
+                <div class="example__block-icon">
+                    <img src="./public/icons/Market.svg" alt="icon-market">
+                </div>
+                <p class="example__block-title">Пример1</p>
+                <p class="example__block-description">Пример1</p>
+            </div>
+            <div class="example__block">
+                <div class="example__block-title">
+                    <img src="./public/icons/Market.svg" alt="icon-market">
+                </div>
+                <p class="example__block-title">Пример2</p>
+                <p class="example__block-description">Пример2</p>
+            </div>
+            <div class="example__block">
+                <div class="example__block-icon">
+                    <img src="./public/icons/Market.svg" alt="icon-market">
+                </div>
+                <p class="example__block-title">Пример3</p>
+                <p class="example__block-description">Пример3</p>
+            </div>
+            <div class="example__block">
+                <div class="example__block-icon">
+                    <img src="./public/icons/Market.svg" alt="icon-market">
+                </div>
+                <p class="example__block-title">Пример4</p>
+                <p class="example__block-description">Пример4</p>
+            </div>
+        </section>
+        <section class="physic">
+            <p class="physic__title">Физика</p>
+            <div class="physic__wrap">
+                <div class="physic__options">
+                    <button class="physic__options-active">Оптика</button>
+                    <button class="physic__options-tune">Оптика2</button>
+                    <button class="physic__options-tune">Оптика2</button>
+                    <button class="physic__options-tune">Оптика2</button>
+                    <button class="physic__options-tune">Оптика2</button>
+                </div>
+                <div class="physic__goods">
+                    <div class="physic__goods-item">
+                        <div class="physic__goods-photo">
+                            <img src="./public/pictures/binocular.png" alt="icon-market">
+                        </div>
+                        <p class="physic__goods-title">Бинокль 1</p>
+                        <p class="physic__goods-text">Описание аппарата 1 все его характеристики и свойства.</p>
+                        <button class="physic__goods-btn">Подробнее</button>
+                    </div>
+                    <div class="physic__goods-item">
+                        <div class="physic__goods-photo">
+                            <img src="./public/pictures/binocular.png" alt="icon-market">
+                        </div>
+                        <p class="physic__goods-title">Бинокль 1</p>
+                        <p class="physic__goods-text">Описание аппарата 1 все его характеристики и свойства.</p>
+                        <button class="physic__goods-btn">Подробнее</button>
+                    </div>
+                    <div class="physic__goods-item">
+                        <div class="physic__goods-photo">
+                            <img src="./public/pictures/binocular.png" alt="icon-market">
+                        </div>
+                        <p class="physic__goods-title">Бинокль 1</p>
+                        <p class="physic__goods-text">Описание аппарата 1 все его характеристики и свойства.</p>
+                        <button class="physic__goods-btn">Подробнее</button>
+                    </div>
+                    <div class="physic__goods-item">
+                        <div class="physic__goods-photo">
+                            <img src="./public/pictures/binocular.png" alt="icon-market">
+                        </div>
+                        <p class="physic__goods-title">Бинокль 1</p>
+                        <p class="physic__goods-text">Описание аппарата 1 все его характеристики и свойства.</p>
+                        <button class="physic__goods-btn">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
